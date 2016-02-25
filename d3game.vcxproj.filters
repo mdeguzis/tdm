@@ -1,0 +1,1703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{b181cfe6-514b-4830-820f-b945e38c66b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI">
+      <UniqueIdentifier>{111cfe35-df8d-4837-b6f4-5406c940a4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\Conversation">
+      <UniqueIdentifier>{844e9c3d-39a0-4a5b-b660-e88fdf5f9d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\EAS">
+      <UniqueIdentifier>{b3940dbc-3793-4e0a-87fd-e93130a8f384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\States">
+      <UniqueIdentifier>{bb3328d7-6369-451e-99e7-ebec43037929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\Tasks">
+      <UniqueIdentifier>{5f2d522a-9536-4983-8bb7-7f369f6af06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Anim">
+      <UniqueIdentifier>{5b68e92f-cfa0-4a60-aae8-cbc99378cfbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameSys">
+      <UniqueIdentifier>{5e524a29-f9a5-40dc-bdfd-3acfd79488b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Physics">
+      <UniqueIdentifier>{a4de1180-13d0-4be4-9b00-62e71f071834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Script">
+      <UniqueIdentifier>{98385bb2-abd6-4485-9317-a859a5bbf61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\DarkMod">
+      <UniqueIdentifier>{f36e10a0-2d23-4ed9-bd70-23d7cda7d6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\DarkMod\SourceHook">
+      <UniqueIdentifier>{a93062c3-6298-4f30-bfa8-c7cc481000c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\DarkMod\StimResponse">
+      <UniqueIdentifier>{6e31cdc5-c200-4f16-bb56-fb4cb52c4094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\DarkMod\Inventory">
+      <UniqueIdentifier>{f4593a81-d838-45e7-a6ce-9f4b73855abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\DarkMod\ZipLoader">
+      <UniqueIdentifier>{389b6981-d3bc-4aa1-a968-bd53381d3bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\DarkMod\Missions">
+      <UniqueIdentifier>{0dcfa06a-782d-47d9-af2b-4490040a9d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\DarkMod\Http">
+      <UniqueIdentifier>{88b50df3-d60b-4097-a614-75668ffb0198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\DarkMod\PugiXML">
+      <UniqueIdentifier>{4d513bdc-4215-45a8-97f1-1e522b0d1123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\DarkMod\Shop">
+      <UniqueIdentifier>{fc5c23e8-96d2-4b36-b214-036ecc2a0a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\DarkMod\Objectives">
+      <UniqueIdentifier>{bb3154e9-8d8c-4a2d-b640-1ce52f1b363f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Framework">
+      <UniqueIdentifier>{c47b9190-fab4-4703-a28b-3d492710cfac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\renderer">
+      <UniqueIdentifier>{5a303052-333e-4a34-8805-8081f98fcda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{f281cb63-0f40-42d2-9441-90ad49119434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sys">
+      <UniqueIdentifier>{73041176-d0cc-4a3a-92b6-ef788c501749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sys\Scons">
+      <UniqueIdentifier>{4f27b5af-e8bf-478f-8f39-4086def1dfae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sys\linux">
+      <UniqueIdentifier>{1bdb33fb-8db6-4eba-ab62-c9803510920a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{bd1eb63b-42c3-4305-ad7b-52f766e4c046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\compilers">
+      <UniqueIdentifier>{b621af4a-f328-4da6-b843-b4d523d5fb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\compilers\aas">
+      <UniqueIdentifier>{75125899-f4e4-4fa0-84b1-1a52ba7b443d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{5960a947-68f6-44a3-9b96-0d19032eb33c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game\actor.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\af.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\afentity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\brittlefracture.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\camera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\emitter.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\entity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\fx.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game_local.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game_network.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gameedit.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ik.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\item.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\light.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\misc.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\moveable.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\mover.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\multiplayergame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\playericon.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\playerview.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\projectile.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\pvs.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\securitycamera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\smokeparticles.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\sound.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\target.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\trigger.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\weapon.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\worldspawn.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ai\aas.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ai\aas_debug.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ai\aas_pathing.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ai\aas_routing.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ai\ai.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ai\ai_events.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ai\ai_pathing.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\AreaManager.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\CommunicationSubsystem.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\DoorInfo.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Memory.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Mind.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\MovementSubsystem.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ai\MoveState.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Subsystem.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Conversation\Conversation.cpp">
+      <Filter>Game\AI\Conversation</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Conversation\ConversationCommand.cpp">
+      <Filter>Game\AI\Conversation</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Conversation\ConversationSystem.cpp">
+      <Filter>Game\AI\Conversation</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\EAS\EAS.cpp">
+      <Filter>Game\AI\EAS</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\EAS\RouteInfo.cpp">
+      <Filter>Game\AI\EAS</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\EAS\RouteNode.cpp">
+      <Filter>Game\AI\EAS</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\AgitatedSearchingState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\AgitatedSearchingStateLanternBot.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\AlertIdleState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\BlindedState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\CombatState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\ConversationState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\DeadState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\EmergeFromCoverState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\States\ExamineRopeState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\States\FailedKnockoutState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\FleeDoneState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\FleeState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\States\IdleSleepState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\IdleState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\KnockedOutState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\LostTrackOfEnemyState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\ObservantState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\States\PainState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\SearchingState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\State.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\StayInCoverState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\SuspiciousState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\SwitchOnLightState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\TakeCoverState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\States\UnreachableTargetState.cpp">
+      <Filter>Game\AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\AnimalPatrolTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\ChaseEnemyRangedTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\ChaseEnemyTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Tasks\CombatTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Tasks\CommunicationTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Tasks\CommWaitTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\FleeTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Tasks\FollowActorTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Tasks\GreetingBarkTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\HandleDoorTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\HandleElevatorTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\IdleAnimationTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\InteractionTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\InvestigateSpotTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\MeleeCombatTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\MoveToCoverTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\MoveToPositionTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathAnimTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathCornerTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathCycleAnimTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathHideTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathInteractTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathLookatTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathShowTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Tasks\PathSitTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Tasks\PathSleepTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathTurnTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathWaitForTriggerTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PathWaitTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\PlayAnimationTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\RandomHeadturnTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\RandomTurningTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\RangedCombatTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\RepeatedBarkTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AI\Tasks\ResolveMovementBlockTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\ScriptTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\SingleBarkTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\ThrowObjectTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\WaitTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Ai\Tasks\WanderInLocationTask.cpp">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="game\anim\Anim.cpp">
+      <Filter>Game\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="game\anim\Anim_Blend.cpp">
+      <Filter>Game\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="game\anim\anim_import.cpp">
+      <Filter>Game\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="game\anim\Anim_Testmodel.cpp">
+      <Filter>Game\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gamesys\Class.cpp">
+      <Filter>Game\GameSys</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gamesys\DebugGraph.cpp">
+      <Filter>Game\GameSys</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gamesys\Event.cpp">
+      <Filter>Game\GameSys</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gamesys\SaveGame.cpp">
+      <Filter>Game\GameSys</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gamesys\SysCmds.cpp">
+      <Filter>Game\GameSys</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gamesys\SysCvar.cpp">
+      <Filter>Game\GameSys</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gamesys\TypeInfo.cpp">
+      <Filter>Game\GameSys</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\clip.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\force.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\force_constant.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\force_drag.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\force_field.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\force_push.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\force_spring.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics_actor.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics_af.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics_base.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics_liquid.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics_monster.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics_parametric.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics_player.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics_rigidbody.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics_static.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\physics_staticmulti.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\physics\push.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\script\script_compiler.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="game\script\script_interpreter.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="game\script\script_program.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="game\script\script_thread.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AbsenceMarker.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AIComm_Message.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\AIVehicle.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\BinaryFrobMover.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\BloodMarker.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\ButtonStateTracker.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\CImage.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\DarkmodAASHidingSpotFinder.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\DarkModGlobals.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\darkmodHidingSpotTree.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\darkModLAS.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\decltdm_matinfo.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\declxdata.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\DifficultyManager.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\DifficultySettings.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\DownloadMenu.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\EscapePointEvaluator.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\EscapePointManager.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\force_grab.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\FrobButton.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\FrobDoor.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\FrobDoorHandle.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\FrobHandle.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\FrobLever.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\FrobLock.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\FrobLockHandle.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\func_shooter.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Grabber.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\HidingSpotSearchCollection.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\I18N.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\ImageMapManager.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\IniFile.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Intersection.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\LightController.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\lightgem.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\liquid.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\MaterialConverter.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\MeleeWeapon.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\ModelGenerator.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\ModMenu.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\MultiStateMover.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\MultiStateMoverButton.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\MultiStateMoverPosition.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\overlaysys.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\PickableLock.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\PositionWithinRangeFinder.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\ProjectileResult.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\PVSToAASMapping.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\RawVector.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Relations.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\RevisionTracker.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\SEED.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\sndProp.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\sndPropLoader.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\StaticMulti.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="game\ai\tdmAASFindEscape.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\TimerManager.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\UserManager.cpp">
+      <Filter>Game\DarkMod</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\sourcehook\sourcehook.cpp">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\StimResponse\Response.cpp">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\StimResponse\ResponseEffect.cpp">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\StimResponse\Stim.cpp">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\StimResponse\StimResponse.cpp">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\StimResponse\StimResponseCollection.cpp">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\StimResponse\StimResponseTimer.cpp">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Inventory\Category.cpp">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Inventory\Cursor.cpp">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Inventory\Inventory.cpp">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Inventory\Item.cpp">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Inventory\WeaponItem.cpp">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\ZipLoader\ZipLoader.cpp">
+      <Filter>Game\DarkMod\ZipLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Missions\Download.cpp">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Missions\DownloadManager.cpp">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Missions\MissionDB.cpp">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Missions\MissionManager.cpp">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Missions\ModInfo.cpp">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Missions\ModInfoDecl.cpp">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Http\HttpConnection.cpp">
+      <Filter>Game\DarkMod\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Http\HttpRequest.cpp">
+      <Filter>Game\DarkMod\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\pugixml\pugixml.cpp">
+      <Filter>Game\DarkMod\PugiXML</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\pugixml\pugixpath.cpp">
+      <Filter>Game\DarkMod\PugiXML</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Shop\LootRuleSet.cpp">
+      <Filter>Game\DarkMod\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Shop\Shop.cpp">
+      <Filter>Game\DarkMod\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Shop\ShopItem.cpp">
+      <Filter>Game\DarkMod\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Objectives\CampaignStatistics.cpp">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Objectives\MissionData.cpp">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Objectives\MissionStatistics.cpp">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Objectives\Objective.cpp">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Objectives\ObjectiveComponent.cpp">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Objectives\ObjectiveCondition.cpp">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Objectives\ObjectiveLocation.cpp">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game\actor.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\af.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\afentity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\brittlefracture.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\camera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\emitter.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\entity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\fx.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game_local.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gameedit.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\ik.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\item.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\light.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\misc.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\moveable.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\mover.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\multiplayergame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\playericon.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\playerview.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\projectile.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\pvs.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\securitycamera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\smokeparticles.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\sound.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\target.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\trigger.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\weapon.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\worldspawn.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\ai\aas.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="game\ai\aas_local.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="game\ai\ai.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\AreaManager.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\CommunicationSubsystem.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\DoorInfo.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Library.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Memory.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Mind.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\MovementSubsystem.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="game\ai\MoveState.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Queue.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Subsystem.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Conversation\Conversation.h">
+      <Filter>Game\AI\Conversation</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Conversation\ConversationCommand.h">
+      <Filter>Game\AI\Conversation</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Conversation\ConversationSystem.h">
+      <Filter>Game\AI\Conversation</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\EAS\ClusterInfo.h">
+      <Filter>Game\AI\EAS</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\EAS\EAS.h">
+      <Filter>Game\AI\EAS</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\EAS\ElevatorStationInfo.h">
+      <Filter>Game\AI\EAS</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\EAS\RouteInfo.h">
+      <Filter>Game\AI\EAS</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\EAS\RouteNode.h">
+      <Filter>Game\AI\EAS</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\AgitatedSearchingState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\AgitatedSearchingStateLanternBot.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\AlertIdleState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\BlindedState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\CombatState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\ConversationState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\DeadState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\EmergeFromCoverState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\States\ExamineRopeState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\States\FailedKnockoutState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\FleeDoneState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\FleeState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\States\IdleSleepState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\IdleState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\KnockedOutState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\LostTrackOfEnemyState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\ObservantState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\States\PainState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\SearchingState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\State.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\StayInCoverState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\SuspiciousState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\SwitchOnLightState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\TakeCoverState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\States\UnreachableTargetState.h">
+      <Filter>Game\AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\AnimalPatrolTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\ChaseEnemyRangedTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\ChaseEnemyTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Tasks\CombatTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Tasks\CommunicationTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Tasks\CommWaitTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\FleeTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Tasks\FollowActorTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Tasks\GreetingBarkTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\HandleDoorTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\HandleElevatorTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\IdleAnimationTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\InteractionTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\InvestigateSpotTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\MeleeCombatTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\MoveToCoverTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\MoveToPositionTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathAnimTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathCornerTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathCycleAnimTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathHideTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathInteractTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathLookatTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathShowTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Tasks\PathSitTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Tasks\PathSleepTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathTurnTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathWaitForTriggerTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PathWaitTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\PlayAnimationTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\RandomHeadturnTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\RandomTurningTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\RangedCombatTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\RepeatedBarkTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AI\Tasks\ResolveMovementBlockTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\ScriptTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\SingleBarkTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\Task.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\ThrowObjectTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\WaitTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Ai\Tasks\WanderInLocationTask.h">
+      <Filter>Game\AI\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="game\anim\Anim.h">
+      <Filter>Game\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="game\anim\Anim_Testmodel.h">
+      <Filter>Game\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gamesys\Class.h">
+      <Filter>Game\GameSys</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gamesys\DebugGraph.h">
+      <Filter>Game\GameSys</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gamesys\Event.h">
+      <Filter>Game\GameSys</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gamesys\NoGameTypeInfo.h">
+      <Filter>Game\GameSys</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gamesys\SaveGame.h">
+      <Filter>Game\GameSys</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gamesys\SysCmds.h">
+      <Filter>Game\GameSys</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gamesys\SysCvar.h">
+      <Filter>Game\GameSys</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gamesys\TypeInfo.h">
+      <Filter>Game\GameSys</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\clip.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\force.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\force_constant.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\force_drag.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\force_field.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\force_push.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\force_spring.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics_actor.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics_af.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics_base.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics_liquid.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics_monster.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics_parametric.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics_player.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics_rigidbody.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics_static.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\physics_staticmulti.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\physics\push.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\script\script_compiler.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="game\script\script_interpreter.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="game\script\script_program.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="game\script\script_thread.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AbsenceMarker.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AIComm_Message.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\AIVehicle.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\BinaryFrobMover.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\BloodMarker.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\ButtonStateTracker.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\CImage.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\DarkmodAASHidingSpotFinder.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\DarkModGlobals.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\darkmodHidingSpotTree.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\darkModLAS.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\decltdm_matinfo.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\declxdata.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\DifficultyManager.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\DifficultySettings.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\DownloadMenu.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\EscapePointEvaluator.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\EscapePointManager.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\force_grab.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\FrobButton.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\FrobDoor.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\FrobDoorHandle.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\FrobHandle.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\FrobLever.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\FrobLock.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\FrobLockHandle.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\func_shooter.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\GamePlayTimer.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Grabber.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\HidingSpotSearchCollection.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\I18N.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\ImageMapManager.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\IniFile.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Intersection.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\LightController.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\lightgem.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\liquid.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\MaterialConverter.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\MatrixSq.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\MeleeWeapon.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\ModelGenerator.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\ModMenu.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\MultiStateMover.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\MultiStateMoverButton.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\MultiStateMoverPosition.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\overlaySys.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\PickableLock.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\PositionWithinRangeFinder.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\ProjectileResult.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\PVSToAASMapping.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\RawVector.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Relations.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\RevisionTracker.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\SEED.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sndProp.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sndPropLoader.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\StaticMulti.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="game\ai\tdmAASFindEscape.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\TimerManager.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\UserManager.h">
+      <Filter>Game\DarkMod</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sourcehook\FastDelegate.h">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sourcehook\sh_list.h">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sourcehook\sh_memfuncinfo.h">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sourcehook\sh_memory.h">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sourcehook\sh_stack.h">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sourcehook\sh_string.h">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sourcehook\sh_tinyhash.h">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sourcehook\sh_vector.h">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sourcehook\sourcehook.h">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\sourcehook\sourcehook_impl.h">
+      <Filter>Game\DarkMod\SourceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\StimResponse\Response.h">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\StimResponse\ResponseEffect.h">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\StimResponse\Stim.h">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\StimResponse\StimResponse.h">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\StimResponse\StimResponseCollection.h">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\StimResponse\StimResponseTimer.h">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\StimResponse\StimType.h">
+      <Filter>Game\DarkMod\StimResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Inventory\Category.h">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Inventory\Cursor.h">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Inventory\Inventory.h">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Inventory\Item.h">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Inventory\LootType.h">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Inventory\WeaponItem.h">
+      <Filter>Game\DarkMod\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\ZipLoader\ZipLoader.h">
+      <Filter>Game\DarkMod\ZipLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Missions\Download.h">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Missions\DownloadManager.h">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Missions\MissionDB.h">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Missions\MissionManager.h">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Missions\ModInfo.h">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Missions\ModInfoDecl.h">
+      <Filter>Game\DarkMod\Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Http\HttpConnection.h">
+      <Filter>Game\DarkMod\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Http\HttpRequest.h">
+      <Filter>Game\DarkMod\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\pugixml\pugiconfig.hpp">
+      <Filter>Game\DarkMod\PugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\pugixml\pugixml.hpp">
+      <Filter>Game\DarkMod\PugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Shop\LootRuleSet.h">
+      <Filter>Game\DarkMod\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Shop\Shop.h">
+      <Filter>Game\DarkMod\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Shop\ShopItem.h">
+      <Filter>Game\DarkMod\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Objectives\BoolParseNode.h">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Objectives\CampaignStatistics.h">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Objectives\EMissionResult.h">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Objectives\MissionData.h">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Objectives\MissionStatistics.h">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Objectives\Objective.h">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Objectives\ObjectiveComponent.h">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Objectives\ObjectiveCondition.h">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkMod\Objectives\ObjectiveLocation.h">
+      <Filter>Game\DarkMod\Objectives</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\builddefines.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\buildversion.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\cmdsystem.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\common.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\cvarsystem.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\declaf.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\declentitydef.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\declfx.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\declmanager.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\declparticle.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\declskin.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\decltable.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\file.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\filesystem.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\licensee.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\usercmdgen.h">
+      <Filter>Game\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\cinematic.h">
+      <Filter>Game\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\glext.h">
+      <Filter>Game\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\material.h">
+      <Filter>Game\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\model.h">
+      <Filter>Game\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\modelmanager.h">
+      <Filter>Game\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\qgl.h">
+      <Filter>Game\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\qgl_linked.h">
+      <Filter>Game\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rendersystem.h">
+      <Filter>Game\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderworld.h">
+      <Filter>Game\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\sys_public.h">
+      <Filter>Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\linux\qgl_enforce.h">
+      <Filter>Sys\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\compilers\aas\aasfile.h">
+      <Filter>tools\compilers\aas</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\compilers\aas\aasfilemanager.h">
+      <Filter>tools\compilers\aas</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\listgui.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\userinterface.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sys\scons\scons_utils.py">
+      <Filter>Sys\Scons</Filter>
+    </None>
+    <None Include="sys\scons\SConscript.game">
+      <Filter>Sys\Scons</Filter>
+    </None>
+    <None Include="sys\scons\SConscript.idlib">
+      <Filter>Sys\Scons</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug with inlines and memory log|Win32">
+      <Configuration>Debug with inlines and memory log</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug with inlines|Win32">
+      <Configuration>Debug with inlines</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Game</ProjectName>
+    <ProjectGuid>{49BEC5C6-B964-417A-851E-808886B57430}</ProjectGuid>
+    <RootNamespace>Game</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Game/DebugDLL\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Game/ReleaseDLL\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">Game/InlineDebugDLL\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">Game/InlineDebugDLL\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'">Game/InlineDebugMemoryDLL\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'">Game/InlineDebugMemoryDLL\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>mssdk/include;DarkMod;include;win32/include;win32/devil/include;win32/libcurl/include;include/zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__DOOM__;GAME_DLL;WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;IL_STATIC_LIB;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerOutput>All</AssemblerOutput>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>$(IntDir)</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>4627;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/FIXED:no %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>dbghelp.lib;idLib.lib;Advapi32.lib;DevIL.lib;ZipLoader.lib;libcurl.lib;WS2_32.lib;libjpeg.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../gamex86.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>DebugDLL;lib;win32/lib;win32/devil/lib;win32/libjpeg/lib;win32/libpng/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>.\game\game.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)game.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)game.map</MapFileName>
+      <SubSystem>NotSet</SubSystem>
+      <StackReserveSize>16000000</StackReserveSize>
+      <StackCommitSize>16000000</StackCommitSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <SupportUnloadOfDelayLoadedDLL>true</SupportUnloadOfDelayLoadedDLL>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>mssdk/include;DarkMod;include;win32/include;win32/devil/include;win32/libcurl/include;include/zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__DOOM__;GAME_DLL;WIN32;NDEBUG;_WINDOWS;IL_STATIC_LIB;CURL_STATICLIB;_CRT_SECURE_NO_DEPRECATE;LIBXML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerOutput>All</AssemblerOutput>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>$(IntDir)</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>4627;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 /fixed:no %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;idLib.lib;Advapi32.lib;DevIL.lib;ZipLoader.lib;libcurl.lib;WS2_32.lib;libjpeg.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../gamex86.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>releasedll;lib;win32/lib;win32/devil/lib;win32/libjpeg/lib;win32/libpng/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>.\game\game.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)game.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)game.map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>NotSet</SubSystem>
+      <StackReserveSize>4194304</StackReserveSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <SupportUnloadOfDelayLoadedDLL>false</SupportUnloadOfDelayLoadedDLL>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>mssdk/include;include;win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__DOOM__;GAME_DLL;WIN32;_DEBUG;_WINDOWS;_INLINEDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>$(IntDir)</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;dbghelp.lib;./inlinedebugdll/idLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>./InlineDebugDLL/gamex86.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>.\game\game.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)game.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)game.map</MapFileName>
+      <SubSystem>NotSet</SubSystem>
+      <StackReserveSize>16000000</StackReserveSize>
+      <StackCommitSize>16000000</StackCommitSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <SupportUnloadOfDelayLoadedDLL>false</SupportUnloadOfDelayLoadedDLL>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'">
+    <PreBuildEvent>
+      <Command>.\TypeInfo\typeinfo.exe</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>mssdk/include;include;win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__DOOM__;GAME_DLL;WIN32;_DEBUG;_WINDOWS;_INLINEDEBUG;ID_REDIRECT_NEWDELETE;ID_DEBUG_MEMORY;ID_DEBUG_UNINITIALIZED_MEMORY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>$(IntDir)</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;dbghelp.lib;./InlineDebugMemoryDLL/idLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>./InlineDebugMemoryDLL/gamex86.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>.\game\game.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)game.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)game.map</MapFileName>
+      <SubSystem>NotSet</SubSystem>
+      <StackReserveSize>16000000</StackReserveSize>
+      <StackCommitSize>16000000</StackCommitSize>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <SupportUnloadOfDelayLoadedDLL>true</SupportUnloadOfDelayLoadedDLL>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="game\actor.cpp" />
+    <ClCompile Include="game\af.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="game\afentity.cpp" />
+    <ClCompile Include="game\brittlefracture.cpp" />
+    <ClCompile Include="game\camera.cpp" />
+    <ClCompile Include="game\emitter.cpp" />
+    <ClCompile Include="game\entity.cpp" />
+    <ClCompile Include="game\fx.cpp" />
+    <ClCompile Include="game\game_local.cpp" />
+    <ClCompile Include="game\game_network.cpp" />
+    <ClCompile Include="game\gameedit.cpp" />
+    <ClCompile Include="game\ik.cpp" />
+    <ClCompile Include="game\item.cpp" />
+    <ClCompile Include="game\light.cpp" />
+    <ClCompile Include="game\misc.cpp" />
+    <ClCompile Include="game\moveable.cpp" />
+    <ClCompile Include="game\mover.cpp" />
+    <ClCompile Include="game\multiplayergame.cpp" />
+    <ClCompile Include="game\player.cpp" />
+    <ClCompile Include="game\playericon.cpp" />
+    <ClCompile Include="game\playerview.cpp" />
+    <ClCompile Include="game\projectile.cpp" />
+    <ClCompile Include="game\pvs.cpp" />
+    <ClCompile Include="game\securitycamera.cpp" />
+    <ClCompile Include="game\smokeparticles.cpp" />
+    <ClCompile Include="game\sound.cpp" />
+    <ClCompile Include="game\target.cpp" />
+    <ClCompile Include="game\trigger.cpp" />
+    <ClCompile Include="game\weapon.cpp" />
+    <ClCompile Include="game\worldspawn.cpp" />
+    <ClCompile Include="game\ai\aas.cpp" />
+    <ClCompile Include="game\ai\aas_debug.cpp" />
+    <ClCompile Include="game\ai\aas_pathing.cpp" />
+    <ClCompile Include="game\ai\aas_routing.cpp" />
+    <ClCompile Include="game\ai\ai.cpp" />
+    <ClCompile Include="game\ai\ai_events.cpp" />
+    <ClCompile Include="game\ai\ai_pathing.cpp" />
+    <ClCompile Include="DarkMod\AI\AreaManager.cpp" />
+    <ClCompile Include="DarkMod\AI\CommunicationSubsystem.cpp" />
+    <ClCompile Include="DarkMod\AI\DoorInfo.cpp" />
+    <ClCompile Include="DarkMod\Ai\Memory.cpp" />
+    <ClCompile Include="DarkMod\Ai\Mind.cpp" />
+    <ClCompile Include="DarkMod\AI\MovementSubsystem.cpp" />
+    <ClCompile Include="game\ai\MoveState.cpp" />
+    <ClCompile Include="DarkMod\Ai\Subsystem.cpp" />
+    <ClCompile Include="DarkMod\AI\Conversation\Conversation.cpp" />
+    <ClCompile Include="DarkMod\AI\Conversation\ConversationCommand.cpp" />
+    <ClCompile Include="DarkMod\AI\Conversation\ConversationSystem.cpp" />
+    <ClCompile Include="DarkMod\AI\EAS\EAS.cpp" />
+    <ClCompile Include="DarkMod\AI\EAS\RouteInfo.cpp" />
+    <ClCompile Include="DarkMod\AI\EAS\RouteNode.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\AgitatedSearchingState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\AgitatedSearchingStateLanternBot.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\AlertIdleState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\BlindedState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\CombatState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\ConversationState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\DeadState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\EmergeFromCoverState.cpp" />
+    <ClCompile Include="DarkMod\AI\States\ExamineRopeState.cpp" />
+    <ClCompile Include="DarkMod\AI\States\FailedKnockoutState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\FleeDoneState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\FleeState.cpp" />
+    <ClCompile Include="DarkMod\AI\States\IdleSleepState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\IdleState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\KnockedOutState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\LostTrackOfEnemyState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\ObservantState.cpp" />
+    <ClCompile Include="DarkMod\AI\States\PainState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\SearchingState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\State.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\StayInCoverState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\SuspiciousState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\SwitchOnLightState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\TakeCoverState.cpp" />
+    <ClCompile Include="DarkMod\Ai\States\UnreachableTargetState.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\AnimalPatrolTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\ChaseEnemyRangedTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\ChaseEnemyTask.cpp" />
+    <ClCompile Include="DarkMod\AI\Tasks\CombatTask.cpp" />
+    <ClCompile Include="DarkMod\AI\Tasks\CommunicationTask.cpp" />
+    <ClCompile Include="DarkMod\AI\Tasks\CommWaitTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\FleeTask.cpp" />
+    <ClCompile Include="DarkMod\AI\Tasks\FollowActorTask.cpp" />
+    <ClCompile Include="DarkMod\AI\Tasks\GreetingBarkTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\HandleDoorTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\HandleElevatorTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\IdleAnimationTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\InteractionTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\InvestigateSpotTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\MeleeCombatTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\MoveToCoverTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\MoveToPositionTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathAnimTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathCornerTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathCycleAnimTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathHideTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathInteractTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathLookatTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathShowTask.cpp" />
+    <ClCompile Include="DarkMod\AI\Tasks\PathSitTask.cpp" />
+    <ClCompile Include="DarkMod\AI\Tasks\PathSleepTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathTurnTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathWaitForTriggerTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PathWaitTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\PlayAnimationTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\RandomHeadturnTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\RandomTurningTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\RangedCombatTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\RepeatedBarkTask.cpp" />
+    <ClCompile Include="DarkMod\AI\Tasks\ResolveMovementBlockTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\ScriptTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\SingleBarkTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\ThrowObjectTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\WaitTask.cpp" />
+    <ClCompile Include="DarkMod\Ai\Tasks\WanderInLocationTask.cpp" />
+    <ClCompile Include="game\anim\Anim.cpp" />
+    <ClCompile Include="game\anim\Anim_Blend.cpp" />
+    <ClCompile Include="game\anim\anim_import.cpp" />
+    <ClCompile Include="game\anim\Anim_Testmodel.cpp" />
+    <ClCompile Include="game\gamesys\Class.cpp" />
+    <ClCompile Include="game\gamesys\DebugGraph.cpp" />
+    <ClCompile Include="game\gamesys\Event.cpp" />
+    <ClCompile Include="game\gamesys\SaveGame.cpp" />
+    <ClCompile Include="game\gamesys\SysCmds.cpp" />
+    <ClCompile Include="game\gamesys\SysCvar.cpp" />
+    <ClCompile Include="game\gamesys\TypeInfo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">$(IntDir)game.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)game.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)game.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="game\physics\clip.cpp" />
+    <ClCompile Include="game\physics\force.cpp" />
+    <ClCompile Include="game\physics\force_constant.cpp" />
+    <ClCompile Include="game\physics\force_drag.cpp" />
+    <ClCompile Include="game\physics\force_field.cpp" />
+    <ClCompile Include="game\physics\force_push.cpp" />
+    <ClCompile Include="game\physics\force_spring.cpp" />
+    <ClCompile Include="game\physics\physics.cpp" />
+    <ClCompile Include="game\physics\physics_actor.cpp" />
+    <ClCompile Include="game\physics\physics_af.cpp" />
+    <ClCompile Include="game\physics\physics_base.cpp" />
+    <ClCompile Include="game\physics\physics_liquid.cpp" />
+    <ClCompile Include="game\physics\physics_monster.cpp" />
+    <ClCompile Include="game\physics\physics_parametric.cpp" />
+    <ClCompile Include="game\physics\physics_player.cpp" />
+    <ClCompile Include="game\physics\physics_rigidbody.cpp" />
+    <ClCompile Include="game\physics\physics_static.cpp" />
+    <ClCompile Include="game\physics\physics_staticmulti.cpp" />
+    <ClCompile Include="game\physics\push.cpp" />
+    <ClCompile Include="game\script\script_compiler.cpp" />
+    <ClCompile Include="game\script\script_interpreter.cpp" />
+    <ClCompile Include="game\script\script_program.cpp" />
+    <ClCompile Include="game\script\script_thread.cpp" />
+    <ClCompile Include="DarkMod\AbsenceMarker.cpp" />
+    <ClCompile Include="DarkMod\AIComm_Message.cpp" />
+    <ClCompile Include="DarkMod\AIVehicle.cpp" />
+    <ClCompile Include="DarkMod\BinaryFrobMover.cpp" />
+    <ClCompile Include="DarkMod\BloodMarker.cpp" />
+    <ClCompile Include="DarkMod\ButtonStateTracker.cpp" />
+    <ClCompile Include="DarkMod\CImage.cpp" />
+    <ClCompile Include="DarkMod\DarkmodAASHidingSpotFinder.cpp" />
+    <ClCompile Include="DarkMod\DarkModGlobals.cpp" />
+    <ClCompile Include="DarkMod\darkmodHidingSpotTree.cpp" />
+    <ClCompile Include="DarkMod\darkModLAS.cpp" />
+    <ClCompile Include="DarkMod\decltdm_matinfo.cpp" />
+    <ClCompile Include="DarkMod\declxdata.cpp" />
+    <ClCompile Include="DarkMod\DifficultyManager.cpp" />
+    <ClCompile Include="DarkMod\DifficultySettings.cpp" />
+    <ClCompile Include="DarkMod\DownloadMenu.cpp" />
+    <ClCompile Include="DarkMod\EscapePointEvaluator.cpp" />
+    <ClCompile Include="DarkMod\EscapePointManager.cpp" />
+    <ClCompile Include="DarkMod\force_grab.cpp" />
+    <ClCompile Include="DarkMod\FrobButton.cpp" />
+    <ClCompile Include="DarkMod\FrobDoor.cpp" />
+    <ClCompile Include="DarkMod\FrobDoorHandle.cpp" />
+    <ClCompile Include="DarkMod\FrobHandle.cpp" />
+    <ClCompile Include="DarkMod\FrobLever.cpp" />
+    <ClCompile Include="DarkMod\FrobLock.cpp" />
+    <ClCompile Include="DarkMod\FrobLockHandle.cpp" />
+    <ClCompile Include="DarkMod\func_shooter.cpp" />
+    <ClCompile Include="DarkMod\Grabber.cpp" />
+    <ClCompile Include="DarkMod\HidingSpotSearchCollection.cpp" />
+    <ClCompile Include="DarkMod\I18N.cpp" />
+    <ClCompile Include="DarkMod\ImageMapManager.cpp" />
+    <ClCompile Include="DarkMod\IniFile.cpp" />
+    <ClCompile Include="DarkMod\Intersection.cpp" />
+    <ClCompile Include="DarkMod\LightController.cpp" />
+    <ClCompile Include="DarkMod\lightgem.cpp" />
+    <ClCompile Include="DarkMod\liquid.cpp" />
+    <ClCompile Include="DarkMod\MaterialConverter.cpp" />
+    <ClCompile Include="DarkMod\MeleeWeapon.cpp" />
+    <ClCompile Include="DarkMod\ModelGenerator.cpp" />
+    <ClCompile Include="DarkMod\ModMenu.cpp" />
+    <ClCompile Include="DarkMod\MultiStateMover.cpp" />
+    <ClCompile Include="DarkMod\MultiStateMoverButton.cpp" />
+    <ClCompile Include="DarkMod\MultiStateMoverPosition.cpp" />
+    <ClCompile Include="DarkMod\overlaysys.cpp" />
+    <ClCompile Include="DarkMod\PickableLock.cpp" />
+    <ClCompile Include="DarkMod\PositionWithinRangeFinder.cpp" />
+    <ClCompile Include="DarkMod\ProjectileResult.cpp" />
+    <ClCompile Include="DarkMod\PVSToAASMapping.cpp" />
+    <ClCompile Include="DarkMod\RawVector.cpp" />
+    <ClCompile Include="DarkMod\Relations.cpp" />
+    <ClCompile Include="DarkMod\RevisionTracker.cpp" />
+    <ClCompile Include="DarkMod\SEED.cpp" />
+    <ClCompile Include="DarkMod\sndProp.cpp" />
+    <ClCompile Include="DarkMod\sndPropLoader.cpp" />
+    <ClCompile Include="DarkMod\StaticMulti.cpp" />
+    <ClCompile Include="game\ai\tdmAASFindEscape.cpp" />
+    <ClCompile Include="DarkMod\TimerManager.cpp" />
+    <ClCompile Include="DarkMod\UserManager.cpp" />
+    <ClCompile Include="DarkMod\sourcehook\sourcehook.cpp" />
+    <ClCompile Include="DarkMod\StimResponse\Response.cpp" />
+    <ClCompile Include="DarkMod\StimResponse\ResponseEffect.cpp" />
+    <ClCompile Include="DarkMod\StimResponse\Stim.cpp" />
+    <ClCompile Include="DarkMod\StimResponse\StimResponse.cpp" />
+    <ClCompile Include="DarkMod\StimResponse\StimResponseCollection.cpp" />
+    <ClCompile Include="DarkMod\StimResponse\StimResponseTimer.cpp" />
+    <ClCompile Include="DarkMod\Inventory\Category.cpp" />
+    <ClCompile Include="DarkMod\Inventory\Cursor.cpp" />
+    <ClCompile Include="DarkMod\Inventory\Inventory.cpp" />
+    <ClCompile Include="DarkMod\Inventory\Item.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug with inlines and memory log|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="DarkMod\Inventory\WeaponItem.cpp" />
+    <ClCompile Include="DarkMod\ZipLoader\ZipLoader.cpp" />
+    <ClCompile Include="DarkMod\Missions\Download.cpp" />
+    <ClCompile Include="DarkMod\Missions\DownloadManager.cpp" />
+    <ClCompile Include="DarkMod\Missions\MissionDB.cpp" />
+    <ClCompile Include="DarkMod\Missions\MissionManager.cpp" />
+    <ClCompile Include="DarkMod\Missions\ModInfo.cpp" />
+    <ClCompile Include="DarkMod\Missions\ModInfoDecl.cpp" />
+    <ClCompile Include="DarkMod\Http\HttpConnection.cpp" />
+    <ClCompile Include="DarkMod\Http\HttpRequest.cpp" />
+    <ClCompile Include="DarkMod\pugixml\pugixml.cpp" />
+    <ClCompile Include="DarkMod\pugixml\pugixpath.cpp" />
+    <ClCompile Include="DarkMod\Shop\LootRuleSet.cpp" />
+    <ClCompile Include="DarkMod\Shop\Shop.cpp" />
+    <ClCompile Include="DarkMod\Shop\ShopItem.cpp" />
+    <ClCompile Include="DarkMod\Objectives\CampaignStatistics.cpp" />
+    <ClCompile Include="DarkMod\Objectives\MissionData.cpp" />
+    <ClCompile Include="DarkMod\Objectives\MissionStatistics.cpp" />
+    <ClCompile Include="DarkMod\Objectives\Objective.cpp" />
+    <ClCompile Include="DarkMod\Objectives\ObjectiveComponent.cpp" />
+    <ClCompile Include="DarkMod\Objectives\ObjectiveCondition.cpp" />
+    <ClCompile Include="DarkMod\Objectives\ObjectiveLocation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game\actor.h" />
+    <ClInclude Include="game\af.h" />
+    <ClInclude Include="game\afentity.h" />
+    <ClInclude Include="game\brittlefracture.h" />
+    <ClInclude Include="game\camera.h" />
+    <ClInclude Include="game\emitter.h" />
+    <ClInclude Include="game\entity.h" />
+    <ClInclude Include="game\fx.h" />
+    <ClInclude Include="game\game.h" />
+    <ClInclude Include="game\game_local.h" />
+    <ClInclude Include="game\gameedit.h" />
+    <ClInclude Include="game\ik.h" />
+    <ClInclude Include="game\item.h" />
+    <ClInclude Include="game\light.h" />
+    <ClInclude Include="game\misc.h" />
+    <ClInclude Include="game\moveable.h" />
+    <ClInclude Include="game\mover.h" />
+    <ClInclude Include="game\multiplayergame.h" />
+    <ClInclude Include="game\player.h" />
+    <ClInclude Include="game\playericon.h" />
+    <ClInclude Include="game\playerview.h" />
+    <ClInclude Include="game\projectile.h" />
+    <ClInclude Include="game\pvs.h" />
+    <ClInclude Include="game\securitycamera.h" />
+    <ClInclude Include="game\smokeparticles.h" />
+    <ClInclude Include="game\sound.h" />
+    <ClInclude Include="game\target.h" />
+    <ClInclude Include="game\trigger.h" />
+    <ClInclude Include="game\weapon.h" />
+    <ClInclude Include="game\worldspawn.h" />
+    <ClInclude Include="game\ai\aas.h" />
+    <ClInclude Include="game\ai\aas_local.h" />
+    <ClInclude Include="game\ai\ai.h" />
+    <ClInclude Include="DarkMod\AI\AreaManager.h" />
+    <ClInclude Include="DarkMod\AI\CommunicationSubsystem.h" />
+    <ClInclude Include="DarkMod\AI\DoorInfo.h" />
+    <ClInclude Include="DarkMod\Ai\Library.h" />
+    <ClInclude Include="DarkMod\Ai\Memory.h" />
+    <ClInclude Include="DarkMod\Ai\Mind.h" />
+    <ClInclude Include="DarkMod\AI\MovementSubsystem.h" />
+    <ClInclude Include="game\ai\MoveState.h" />
+    <ClInclude Include="DarkMod\Ai\Queue.h" />
+    <ClInclude Include="DarkMod\Ai\Subsystem.h" />
+    <ClInclude Include="DarkMod\AI\Conversation\Conversation.h" />
+    <ClInclude Include="DarkMod\AI\Conversation\ConversationCommand.h" />
+    <ClInclude Include="DarkMod\AI\Conversation\ConversationSystem.h" />
+    <ClInclude Include="DarkMod\AI\EAS\ClusterInfo.h" />
+    <ClInclude Include="DarkMod\AI\EAS\EAS.h" />
+    <ClInclude Include="DarkMod\AI\EAS\ElevatorStationInfo.h" />
+    <ClInclude Include="DarkMod\AI\EAS\RouteInfo.h" />
+    <ClInclude Include="DarkMod\AI\EAS\RouteNode.h" />
+    <ClInclude Include="DarkMod\Ai\States\AgitatedSearchingState.h" />
+    <ClInclude Include="DarkMod\Ai\States\AgitatedSearchingStateLanternBot.h" />
+    <ClInclude Include="DarkMod\Ai\States\AlertIdleState.h" />
+    <ClInclude Include="DarkMod\Ai\States\BlindedState.h" />
+    <ClInclude Include="DarkMod\Ai\States\CombatState.h" />
+    <ClInclude Include="DarkMod\Ai\States\ConversationState.h" />
+    <ClInclude Include="DarkMod\Ai\States\DeadState.h" />
+    <ClInclude Include="DarkMod\Ai\States\EmergeFromCoverState.h" />
+    <ClInclude Include="DarkMod\AI\States\ExamineRopeState.h" />
+    <ClInclude Include="DarkMod\AI\States\FailedKnockoutState.h" />
+    <ClInclude Include="DarkMod\Ai\States\FleeDoneState.h" />
+    <ClInclude Include="DarkMod\Ai\States\FleeState.h" />
+    <ClInclude Include="DarkMod\AI\States\IdleSleepState.h" />
+    <ClInclude Include="DarkMod\Ai\States\IdleState.h" />
+    <ClInclude Include="DarkMod\Ai\States\KnockedOutState.h" />
+    <ClInclude Include="DarkMod\Ai\States\LostTrackOfEnemyState.h" />
+    <ClInclude Include="DarkMod\Ai\States\ObservantState.h" />
+    <ClInclude Include="DarkMod\AI\States\PainState.h" />
+    <ClInclude Include="DarkMod\Ai\States\SearchingState.h" />
+    <ClInclude Include="DarkMod\Ai\States\State.h" />
+    <ClInclude Include="DarkMod\Ai\States\StayInCoverState.h" />
+    <ClInclude Include="DarkMod\Ai\States\SuspiciousState.h" />
+    <ClInclude Include="DarkMod\Ai\States\SwitchOnLightState.h" />
+    <ClInclude Include="DarkMod\Ai\States\TakeCoverState.h" />
+    <ClInclude Include="DarkMod\Ai\States\UnreachableTargetState.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\AnimalPatrolTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\ChaseEnemyRangedTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\ChaseEnemyTask.h" />
+    <ClInclude Include="DarkMod\AI\Tasks\CombatTask.h" />
+    <ClInclude Include="DarkMod\AI\Tasks\CommunicationTask.h" />
+    <ClInclude Include="DarkMod\AI\Tasks\CommWaitTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\FleeTask.h" />
+    <ClInclude Include="DarkMod\AI\Tasks\FollowActorTask.h" />
+    <ClInclude Include="DarkMod\AI\Tasks\GreetingBarkTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\HandleDoorTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\HandleElevatorTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\IdleAnimationTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\InteractionTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\InvestigateSpotTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\MeleeCombatTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\MoveToCoverTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\MoveToPositionTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathAnimTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathCornerTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathCycleAnimTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathHideTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathInteractTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathLookatTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathShowTask.h" />
+    <ClInclude Include="DarkMod\AI\Tasks\PathSitTask.h" />
+    <ClInclude Include="DarkMod\AI\Tasks\PathSleepTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathTurnTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathWaitForTriggerTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PathWaitTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\PlayAnimationTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\RandomHeadturnTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\RandomTurningTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\RangedCombatTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\RepeatedBarkTask.h" />
+    <ClInclude Include="DarkMod\AI\Tasks\ResolveMovementBlockTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\ScriptTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\SingleBarkTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\Task.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\ThrowObjectTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\WaitTask.h" />
+    <ClInclude Include="DarkMod\Ai\Tasks\WanderInLocationTask.h" />
+    <ClInclude Include="game\anim\Anim.h" />
+    <ClInclude Include="game\anim\Anim_Testmodel.h" />
+    <ClInclude Include="game\gamesys\Class.h" />
+    <ClInclude Include="game\gamesys\DebugGraph.h" />
+    <ClInclude Include="game\gamesys\Event.h" />
+    <ClInclude Include="game\gamesys\NoGameTypeInfo.h" />
+    <ClInclude Include="game\gamesys\SaveGame.h" />
+    <ClInclude Include="game\gamesys\SysCmds.h" />
+    <ClInclude Include="game\gamesys\SysCvar.h" />
+    <ClInclude Include="game\gamesys\TypeInfo.h" />
+    <ClInclude Include="game\physics\clip.h" />
+    <ClInclude Include="game\physics\force.h" />
+    <ClInclude Include="game\physics\force_constant.h" />
+    <ClInclude Include="game\physics\force_drag.h" />
+    <ClInclude Include="game\physics\force_field.h" />
+    <ClInclude Include="game\physics\force_push.h" />
+    <ClInclude Include="game\physics\force_spring.h" />
+    <ClInclude Include="game\physics\physics.h" />
+    <ClInclude Include="game\physics\physics_actor.h" />
+    <ClInclude Include="game\physics\physics_af.h" />
+    <ClInclude Include="game\physics\physics_base.h" />
+    <ClInclude Include="game\physics\physics_liquid.h" />
+    <ClInclude Include="game\physics\physics_monster.h" />
+    <ClInclude Include="game\physics\physics_parametric.h" />
+    <ClInclude Include="game\physics\physics_player.h" />
+    <ClInclude Include="game\physics\physics_rigidbody.h" />
+    <ClInclude Include="game\physics\physics_static.h" />
+    <ClInclude Include="game\physics\physics_staticmulti.h" />
+    <ClInclude Include="game\physics\push.h" />
+    <ClInclude Include="game\script\script_compiler.h" />
+    <ClInclude Include="game\script\script_interpreter.h" />
+    <ClInclude Include="game\script\script_program.h" />
+    <ClInclude Include="game\script\script_thread.h" />
+    <ClInclude Include="DarkMod\AbsenceMarker.h" />
+    <ClInclude Include="DarkMod\AIComm_Message.h" />
+    <ClInclude Include="DarkMod\AIVehicle.h" />
+    <ClInclude Include="DarkMod\BinaryFrobMover.h" />
+    <ClInclude Include="DarkMod\BloodMarker.h" />
+    <ClInclude Include="DarkMod\ButtonStateTracker.h" />
+    <ClInclude Include="DarkMod\CImage.h" />
+    <ClInclude Include="DarkMod\DarkmodAASHidingSpotFinder.h" />
+    <ClInclude Include="DarkMod\DarkModGlobals.h" />
+    <ClInclude Include="DarkMod\darkmodHidingSpotTree.h" />
+    <ClInclude Include="DarkMod\darkModLAS.h" />
+    <ClInclude Include="DarkMod\decltdm_matinfo.h" />
+    <ClInclude Include="DarkMod\declxdata.h" />
+    <ClInclude Include="DarkMod\DifficultyManager.h" />
+    <ClInclude Include="DarkMod\DifficultySettings.h" />
+    <ClInclude Include="DarkMod\DownloadMenu.h" />
+    <ClInclude Include="DarkMod\EscapePointEvaluator.h" />
+    <ClInclude Include="DarkMod\EscapePointManager.h" />
+    <ClInclude Include="DarkMod\force_grab.h" />
+    <ClInclude Include="DarkMod\FrobButton.h" />
+    <ClInclude Include="DarkMod\FrobDoor.h" />
+    <ClInclude Include="DarkMod\FrobDoorHandle.h" />
+    <ClInclude Include="DarkMod\FrobHandle.h" />
+    <ClInclude Include="DarkMod\FrobLever.h" />
+    <ClInclude Include="DarkMod\FrobLock.h" />
+    <ClInclude Include="DarkMod\FrobLockHandle.h" />
+    <ClInclude Include="DarkMod\func_shooter.h" />
+    <ClInclude Include="DarkMod\GamePlayTimer.h" />
+    <ClInclude Include="DarkMod\Grabber.h" />
+    <ClInclude Include="DarkMod\HidingSpotSearchCollection.h" />
+    <ClInclude Include="DarkMod\I18N.h" />
+    <ClInclude Include="DarkMod\ImageMapManager.h" />
+    <ClInclude Include="DarkMod\IniFile.h" />
+    <ClInclude Include="DarkMod\Intersection.h" />
+    <ClInclude Include="DarkMod\LightController.h" />
+    <ClInclude Include="DarkMod\lightgem.h" />
+    <ClInclude Include="DarkMod\liquid.h" />
+    <ClInclude Include="DarkMod\MaterialConverter.h" />
+    <ClInclude Include="DarkMod\MatrixSq.h" />
+    <ClInclude Include="DarkMod\MeleeWeapon.h" />
+    <ClInclude Include="DarkMod\ModelGenerator.h" />
+    <ClInclude Include="DarkMod\ModMenu.h" />
+    <ClInclude Include="DarkMod\MultiStateMover.h" />
+    <ClInclude Include="DarkMod\MultiStateMoverButton.h" />
+    <ClInclude Include="DarkMod\MultiStateMoverPosition.h" />
+    <ClInclude Include="DarkMod\overlaySys.h" />
+    <ClInclude Include="DarkMod\PickableLock.h" />
+    <ClInclude Include="DarkMod\PositionWithinRangeFinder.h" />
+    <ClInclude Include="DarkMod\ProjectileResult.h" />
+    <ClInclude Include="DarkMod\PVSToAASMapping.h" />
+    <ClInclude Include="DarkMod\RawVector.h" />
+    <ClInclude Include="DarkMod\Relations.h" />
+    <ClInclude Include="DarkMod\RevisionTracker.h" />
+    <ClInclude Include="DarkMod\SEED.h" />
+    <ClInclude Include="DarkMod\sndProp.h" />
+    <ClInclude Include="DarkMod\sndPropLoader.h" />
+    <ClInclude Include="DarkMod\StaticMulti.h" />
+    <ClInclude Include="game\ai\tdmAASFindEscape.h" />
+    <ClInclude Include="DarkMod\TimerManager.h" />
+    <ClInclude Include="DarkMod\UserManager.h" />
+    <ClInclude Include="DarkMod\sourcehook\FastDelegate.h" />
+    <ClInclude Include="DarkMod\sourcehook\sh_list.h" />
+    <ClInclude Include="DarkMod\sourcehook\sh_memfuncinfo.h" />
+    <ClInclude Include="DarkMod\sourcehook\sh_memory.h" />
+    <ClInclude Include="DarkMod\sourcehook\sh_stack.h" />
+    <ClInclude Include="DarkMod\sourcehook\sh_string.h" />
+    <ClInclude Include="DarkMod\sourcehook\sh_tinyhash.h" />
+    <ClInclude Include="DarkMod\sourcehook\sh_vector.h" />
+    <ClInclude Include="DarkMod\sourcehook\sourcehook.h" />
+    <ClInclude Include="DarkMod\sourcehook\sourcehook_impl.h" />
+    <ClInclude Include="DarkMod\StimResponse\Response.h" />
+    <ClInclude Include="DarkMod\StimResponse\ResponseEffect.h" />
+    <ClInclude Include="DarkMod\StimResponse\Stim.h" />
+    <ClInclude Include="DarkMod\StimResponse\StimResponse.h" />
+    <ClInclude Include="DarkMod\StimResponse\StimResponseCollection.h" />
+    <ClInclude Include="DarkMod\StimResponse\StimResponseTimer.h" />
+    <ClInclude Include="DarkMod\StimResponse\StimType.h" />
+    <ClInclude Include="DarkMod\Inventory\Category.h" />
+    <ClInclude Include="DarkMod\Inventory\Cursor.h" />
+    <ClInclude Include="DarkMod\Inventory\Inventory.h" />
+    <ClInclude Include="DarkMod\Inventory\Item.h" />
+    <ClInclude Include="DarkMod\Inventory\LootType.h" />
+    <ClInclude Include="DarkMod\Inventory\WeaponItem.h" />
+    <ClInclude Include="DarkMod\ZipLoader\ZipLoader.h" />
+    <ClInclude Include="DarkMod\Missions\Download.h" />
+    <ClInclude Include="DarkMod\Missions\DownloadManager.h" />
+    <ClInclude Include="DarkMod\Missions\MissionDB.h" />
+    <ClInclude Include="DarkMod\Missions\MissionManager.h" />
+    <ClInclude Include="DarkMod\Missions\ModInfo.h" />
+    <ClInclude Include="DarkMod\Missions\ModInfoDecl.h" />
+    <ClInclude Include="DarkMod\Http\HttpConnection.h" />
+    <ClInclude Include="DarkMod\Http\HttpRequest.h" />
+    <ClInclude Include="DarkMod\pugixml\pugiconfig.hpp" />
+    <ClInclude Include="DarkMod\pugixml\pugixml.hpp" />
+    <ClInclude Include="DarkMod\Shop\LootRuleSet.h" />
+    <ClInclude Include="DarkMod\Shop\Shop.h" />
+    <ClInclude Include="DarkMod\Shop\ShopItem.h" />
+    <ClInclude Include="DarkMod\Objectives\BoolParseNode.h" />
+    <ClInclude Include="DarkMod\Objectives\CampaignStatistics.h" />
+    <ClInclude Include="DarkMod\Objectives\EMissionResult.h" />
+    <ClInclude Include="DarkMod\Objectives\MissionData.h" />
+    <ClInclude Include="DarkMod\Objectives\MissionStatistics.h" />
+    <ClInclude Include="DarkMod\Objectives\Objective.h" />
+    <ClInclude Include="DarkMod\Objectives\ObjectiveComponent.h" />
+    <ClInclude Include="DarkMod\Objectives\ObjectiveCondition.h" />
+    <ClInclude Include="DarkMod\Objectives\ObjectiveLocation.h" />
+    <ClInclude Include="framework\builddefines.h" />
+    <ClInclude Include="framework\buildversion.h" />
+    <ClInclude Include="framework\cmdsystem.h" />
+    <ClInclude Include="framework\common.h" />
+    <ClInclude Include="framework\cvarsystem.h" />
+    <ClInclude Include="framework\declaf.h" />
+    <ClInclude Include="framework\declentitydef.h" />
+    <ClInclude Include="framework\declfx.h" />
+    <ClInclude Include="framework\declmanager.h" />
+    <ClInclude Include="framework\declparticle.h" />
+    <ClInclude Include="framework\declskin.h" />
+    <ClInclude Include="framework\decltable.h" />
+    <ClInclude Include="framework\file.h" />
+    <ClInclude Include="framework\filesystem.h" />
+    <ClInclude Include="framework\licensee.h" />
+    <ClInclude Include="framework\usercmdgen.h" />
+    <ClInclude Include="renderer\cinematic.h" />
+    <ClInclude Include="renderer\glext.h" />
+    <ClInclude Include="renderer\material.h" />
+    <ClInclude Include="renderer\model.h" />
+    <ClInclude Include="renderer\modelmanager.h" />
+    <ClInclude Include="renderer\qgl.h" />
+    <ClInclude Include="renderer\qgl_linked.h" />
+    <ClInclude Include="renderer\rendersystem.h" />
+    <ClInclude Include="renderer\renderworld.h" />
+    <ClInclude Include="sound\sound.h" />
+    <ClInclude Include="sys\sys_public.h" />
+    <ClInclude Include="sys\linux\qgl_enforce.h" />
+    <ClInclude Include="tools\compilers\aas\aasfile.h" />
+    <ClInclude Include="tools\compilers\aas\aasfilemanager.h" />
+    <ClInclude Include="ui\listgui.h" />
+    <ClInclude Include="ui\userinterface.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sys\scons\scons_utils.py" />
+    <None Include="sys\scons\SConscript.game" />
+    <None Include="sys\scons\SConscript.idlib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="idlib.vcxproj">
+      <Project>{49bec5c6-b964-417a-851e-808886b57400}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
