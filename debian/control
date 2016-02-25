@@ -20,8 +20,8 @@ Build-Depends: debhelper,
  libopenal-dev:i386,
  libasound2-dev,
  libasound2-dev:i386,
- libxext-devn,
- libxext-devn:i386,
+ libxext-dev,
+ libxext-dev:i386,
  scons
 Maintainer: SteamOS-Tools-Signing Key <mdeguzis@gmail.com>
 Standards-Version: 3.9.5
