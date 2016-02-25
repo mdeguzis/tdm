@@ -11,8 +11,9 @@
  local_env.Append(LIBS = [
 +	# For explanation of location triplet, see https://wiki.debian.org/Multiarch/Implementation
  	# Uncomment this if you're on a x64 system - there is no libpng.a on Ubuntu x64 for instance
- 	#File('/usr/lib32/libpng.so'),
-+	File('/lib/i386-linux-gnu/libpng12.so.0'),
+-	#File('/usr/lib32/libpng.so'),
++ File('/usr/lib/i386-linux-gnu/libpng.so'),
++	File('/usr/lib/i386-linux-gnu/libpng12.so.0'),
  	File('#/linux/libcurl/libcurl.a'),
  	File('#/linux/polarssl/libpolarssl.a'),
  	File('#/linux/boost/lib/libboost_filesystem.a'),
