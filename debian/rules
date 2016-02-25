@@ -13,7 +13,7 @@ override_dh_auto_build:
 override_dh_clean:
 	# remove if exists
 	if [ -f "/usr/games/tdm/darkmod/gamex86.so" ]; then
-		rm ~/games/tdm/darkmod/gamex86.so
+		dh_clean "/usr/games/tdm/darkmod/gamex86.so"
 	fi
 	# run rest of clean
 	dh_clean
