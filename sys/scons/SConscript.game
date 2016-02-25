@@ -303,13 +303,11 @@ local_env.Append( CPPFLAGS = [ '-Wno-deprecated', '-Winvalid-pch' ] )
 
 # Link the runtime statically, link statically against libpng.a
 # the corresponding package libpng12-dev must be available on the system
-#local_env.Append( LINKFLAGS = [ '-lrt', '-lpng' ] )
-local_env.Append( LINKFLAGS = [ '-lrt', '-lpng12' ] )
+local_env.Append( LINKFLAGS = [ '-lrt', '-lpng' ] )
 
 local_env.Append(LIBS = [
 	# Uncomment this if you're on a x64 system - there is no libpng.a on Ubuntu x64 for instance
 	#File('/usr/lib32/libpng.so'),
-	File('/lib32/libpng12.so.0'),
 	File('#/linux/libcurl/libcurl.a'),
 	File('#/linux/polarssl/libpolarssl.a'),
 	File('#/linux/boost/lib/libboost_filesystem.a'),
@@ -333,5 +331,4 @@ full_list = game_list + darkModList + idlib_objects + ziploader_list + devil_lis
 ret = local_env.SharedLibrary('game', full_list )
 
 Return( 'ret' )
-
 
