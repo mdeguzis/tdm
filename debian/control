@@ -1,0 +1,27 @@
+Source: tdm
+Section: games
+Priority: optional
+Build-Depends: debhelper,
+ gcc,
+ g++,
+ g++-4.9-multilib,
+ m4,
+ zip,
+ libglew-dev,
+ libpng12-dev,
+ libjpeg62-dev,
+ libc6-dev:i386
+ libxxf86vm-dev,
+ libopenal-dev,
+ libasound2-dev,
+ libxext-devn
+ scons
+Maintainer: SteamOS-Tools-Signing Key <mdeguzis@gmail.com>
+Standards-Version: 3.9.5
+Vcs-Git: https://github.com/ProfessorKaos64/tdm
+Homepage: http://thedarkmod.com
+
+Package: tdm
+Architecture: any
+Depends: ${misc:Depends}
+Description: The Dark Mod is a fan-made game in the style of the original Thief.
