@@ -8,7 +8,7 @@ override_dh_autoconfigure:
 	touch scons.signatures.dblite
 	
 override_dh_auto_build:
-	time scons -j2 BUILD_GAMEPAK=1 NO_GCH=0 BUILD=release --debug=explain "$@"
+	scons -j2 BUILD_GAMEPAK=1 NO_GCH=0 BUILD=release --debug=explain "$@"
 	
 override_dh_clean:
 	dh_clean "/usr/games/tdm/darkmod/gamex86.so"
