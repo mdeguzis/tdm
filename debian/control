@@ -8,13 +8,20 @@ Build-Depends: debhelper,
  m4,
  zip,
  libglew-dev,
+ libglew-dev:i386,
  libpng12-dev,
+ libpng12-dev:i386,
  libjpeg62-dev,
- libc6-dev:i386
+ libjpeg62-dev:i386,
+ libc6-dev:i386,
  libxxf86vm-dev,
+ libxxf86vm-dev:i386,
  libopenal-dev,
+ libopenal-dev:i386,
  libasound2-dev,
- libxext-devn
+ libasound2-dev:i386,
+ libxext-devn,
+ libxext-devn:i386,
  scons
 Maintainer: SteamOS-Tools-Signing Key <mdeguzis@gmail.com>
 Standards-Version: 3.9.5
