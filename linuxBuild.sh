@@ -33,6 +33,7 @@ TARGET_DEMO='0'
 Command line: BUILD_GAMEPAK='1'
 Command line: NO_GCH='0'
 Command line: BUILD='release'
+
 END
 
 ##########################################
