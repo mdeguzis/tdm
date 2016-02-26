@@ -21,6 +21,7 @@ Build-Depends: debhelper,
  libalut-dev,
  libvorbis-dev,
  scons,
+ zip,
  zlib1g-dev
 Maintainer: SteamOS-Tools-Signing Key <mdeguzis@gmail.com>
 Standards-Version: 3.9.5
